@@ -5,7 +5,7 @@
 # Works with:
 #  - Crash Bandicoot N. Sane Trilogy
 #  - Crash Team Racing Nitro-Fueled
-#  - (possibily other Vicarous Visions games)
+#  - (possibily other Vicarious Visions games)
 #    (or other 'Alchemy' engine games?)
 #
 # (you can use QuickBMS to extract .pak files)

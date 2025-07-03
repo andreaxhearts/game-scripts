@@ -1,14 +1,18 @@
 #!/bin/bash
 
 # Rename files extracted from .pak archives.
+
 # Works with:
 #  - Crash Bandicoot N. Sane Trilogy
 #  - Crash Team Racing Nitro-Fueled
 #  - (possibily other Vicarous Visions games)
-#  - (or other 'Alchemy' engine games?)
+#    (or other 'Alchemy' engine games?)
 #
 # (you can use QuickBMS to extract .pak files)
 # https://aluigi.altervista.org/quickbms.htm
+#
+# After the script removes the backtick character from filenames,
+# you use other commandline utilities, e.g. ImageMagick.
 
 # Usage:
 #   CrashNSaneTrilogy_rename.sh [options]

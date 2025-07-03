@@ -1,4 +1,20 @@
 #!/bin/bash
+
+# Rename files extracted from .pak archives.
+# Works with:
+#  - Crash Bandicoot N. Sane Trilogy
+#  - Crash Team Racing Nitro-Fueled
+#  - (possibily other Vicarous Visions games)
+#  - (or other 'Alchemy' engine games?)
+#
+# (you can use QuickBMS to extract .pak files)
+# https://aluigi.altervista.org/quickbms.htm
+
+# Usage:
+#   CrashNSaneTrilogy_rename.sh [options]
+#   options:
+#    -r : Revert renamed files back.
+
 shopt -s nocasematch
 while test $# -gt 0
 do
@@ -10,7 +26,7 @@ do
         --revert) revertFN=true
             ;;
         *) revertFN=false
-        		;;
+            ;;
     esac
     shift
 done

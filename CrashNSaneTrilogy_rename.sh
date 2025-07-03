@@ -12,7 +12,7 @@
 #  https://aluigi.altervista.org/quickbms.htm
 #
 # After the script removes the backtick character from filenames,
-# you use other commandline utilities, e.g. ImageMagick.
+# you use other command line utilities, e.g. ImageMagick.
 
 # Usage:
 #   CrashNSaneTrilogy_rename.sh [options]
